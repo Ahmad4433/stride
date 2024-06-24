@@ -1,0 +1,59 @@
+.hero_main {
+  background-image: url("../../../assets/hero_imsgr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  background-position: left;
+  position: relative;
+}
+.hero_backdrop {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100%;
+}
+
+.hero_content {
+  width: 50%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.hero_heading {
+  font-weight: 700;
+  font-size: 2.6rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.4px;
+  opacity: 1;
+}
+
+.hero_sub_heading {
+  background-color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 18px;
+  color: var(--clrblack400);
+  width: fit-content;
+}
+
+.hero_sub_heading span {
+  color: black;
+  font-weight: 700;
+}
+
+.hero_description {
+  color: white;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  text-align: center;
+  font-weight: 400;
+}
+

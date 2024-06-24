@@ -1,0 +1,101 @@
+.automation_main {
+  background-color: var(--clrprimary);
+  padding: 4rem 6rem;
+}
+.auto_content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  align-items: center;
+  justify-content: center;
+}
+.auto_content p:nth-child(1) {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.auto_content p:nth-child(2) {
+  color: white;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  width: 80%;
+}
+.auto_content p:nth-child(3) {
+  background-color: white;
+  padding: 0.4rem 2rem;
+  font-family: var(--fontsec);
+  border-radius: 18px;
+  font-size: 14px;
+  width: max-content;
+  text-align: center;
+}
+
+.automation_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0 4rem;
+  margin-top: 3rem;
+}
+
+.automation_container0,
+.automation_container1,
+.automation_container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d7ffff;
+  padding: 1.8rem 1.8rem;
+  border-radius: 20px;
+  height: 360px;
+}
+
+.auto_title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.auto_description {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 14px;
+  padding: 0 1.6rem;
+}
+
+.automation_container0 .auto_feature,
+.automation_container1 .auto_feature,
+.automation_container2 .auto_feature {
+  background-color: #00bbbb;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  border-radius: 12px;
+  font-size: 14px;
+  height: 60px;
+  width: 100%;
+}
+
+.automation_container1 .auto_feature {
+  background-color: #b55092;
+}
+.automation_container2 .auto_feature {
+  background-color: #e4a807;
+}
+
+.auto_read_icon {
+  width: 14px;
+}
+
+.auto_action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}

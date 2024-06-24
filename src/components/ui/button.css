@@ -1,0 +1,28 @@
+.action_button_outline,
+.action_button_plane,
+.action_animate {
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+  }
+}
+
+.action_button_plane {
+  background-color: var(--clrprimary);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.action_button_outline {
+  background-color: transparent;
+  font-family: inherit;
+}

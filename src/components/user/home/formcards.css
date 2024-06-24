@@ -1,0 +1,41 @@
+.form_card_main {
+  padding: 0 5rem;
+  margin-top: 4rem;
+}
+
+.form_card_container {
+  display: grid;
+  margin-bottom: 2rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  background-color: var(--clrgray);
+  border-radius: 12px;
+  padding: 1.6rem;
+}
+
+.form_card_content p:first-child {
+  color: var(--clrprimary);
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.form_card_content p:nth-child(2) {
+  color: black;
+  font-weight: 600;
+}
+.form_card_content p:nth-child(3) {
+  color: var(--clrblack400);
+  font-weight: 500;
+}
+
+.form_card_card {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form_card_img {
+  object-fit: contain;
+}
